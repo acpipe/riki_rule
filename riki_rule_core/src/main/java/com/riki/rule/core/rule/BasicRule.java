@@ -1,13 +1,20 @@
 package com.riki.rule.core.rule;
 
-import com.rike.rule.core.fact.Facts;
+import java.util.ArrayList;
+import java.util.List;
+
+import com.rike.rule.core.api.Action;
+import com.rike.rule.core.api.Condition;
+import com.rike.rule.core.api.Facts;
+import com.rike.rule.core.api.Rule;
 
 /**
  * @author huming on 2023/1/11.
  */
-public class BasicRule implements Rule {
+public class BasicRule<T> implements Rule {
     protected String name;
     protected String desc;
+
 
     @Override
     public String getName() {

@@ -1,4 +1,4 @@
-package com.rike.rule.core.fact;
+package com.rike.rule.core.api;
 
 /**
  * @author huming on 2023/1/11.
