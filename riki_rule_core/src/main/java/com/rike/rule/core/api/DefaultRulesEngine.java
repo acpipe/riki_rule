@@ -20,7 +20,7 @@ public class DefaultRulesEngine implements RulesEngine {
                 try {
                     rule.execute(facts);
                 } catch (Exception e) {
-
+                    // log
                 }
             }
         });
