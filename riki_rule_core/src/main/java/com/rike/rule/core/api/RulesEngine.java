@@ -8,4 +8,5 @@ import java.util.Map;
  */
 public interface RulesEngine {
     Map<Rule, Boolean> check(Rules rules, Facts facts);
+    void fire(Rules rules, Facts facts);
 }
